@@ -1,6 +1,8 @@
 #!/bin/sh
-# Define Function =query=
+# Define Function =hi=
 
 hi () {
-  echo "Hi!"
+  if test git rev-parse --git-dir 2> /dev/null; then
+    echo "$?"
+  fi
 }

@@ -1,0 +1,13 @@
+* Mac Setup
+:properties:
+:header-args: :cache yes :comments org :padline yes :results silent
+:header-args:sh: :shebang "#!/bin/sh" :tangle mac-setup.command
+:end:
+#+startup: showall nohideblocks hidestars indent
+
+*** Define Function =query=
+#+begin_src sh
+hi () {
+  echo "Hi!"
+}
+#+end_src

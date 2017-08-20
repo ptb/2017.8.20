@@ -1,7 +1,7 @@
-* Mac Setup
+* 2017.8.20
 :properties:
 :header-args: :cache yes :comments org :padline yes :results silent
-:header-args:sh: :shebang "#!/bin/sh" :tangle mac-setup.command
+:header-args:sh: :shebang "#!/bin/sh" :tangle 2017.8.20.command
 :end:
 #+startup: showall nohideblocks hidestars indent
 
